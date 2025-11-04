@@ -82,7 +82,7 @@ class Agent():
         Args:
             file_name (str, optional): The path to the model file. Defaults to None.
         """
-        model_folder_path = './models'
+        model_folder_path = 'models'
 
         if file_name is None:
             if not os.path.exists(model_folder_path):
@@ -147,7 +147,7 @@ class Agent():
             file_name (str, optional): The path to the model file. Defaults to 'checkpoint_model.pth'.
         """
         # Create directory if it doesn't exist
-        model_folder_path = './models'
+        model_folder_path = 'models'
         if not os.path.exists(model_folder_path):
             os.makedirs(model_folder_path)
 
